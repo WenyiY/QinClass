@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+	<head>
+		<title>ProjectHomepage</title>
+		<link type=text/css rel=stylesheet href="HomepageForProject.css" />
+		
+		<script language="javascript" type="text/javascript">
+			
+			function showHideDiv(num)
+				{		
+					if( section0_title=document.getElementById("section"+num+"_title").style.visibility == "visible")
+						{						
+							section0_title=document.getElementById("section"+num+"_title").style.visibility = "hidden";						
+						}
+					else{						
+							section0_title=document.getElementById("section"+num+"_title").style.visibility = "visible";						
+						}	
+				}			
+		</script>
+	</head>
+	
+	<body>
+        <center> <h1>QinClass</h1> </center>
+        
+        <div id="section0" class="section">
+        	<a href="http://udel.edu/~chrisyin/ART307/finalProject/PersonaForProject.html" onmouseover="showHideDiv(0)" onmouseout="showHideDiv(0)">
+        		<div class="section_overlay">
+					<img src="images/ProjectHomepageTopLeft.jpg"  
+					title="Credit: https://www.sc.edu/about/offices_and_divisions/cte/teaching_resources/images/students_teacher_classroom.jpg" 
+					id="Persona" width="800" height="250" border="0">
+					<div id="section0_title" class="section_title">Persona</div></img>
+				</div>
+			</a>
+        </div>
+        
+        
+        <div id="section1" class="section">
+        	<a href="http://udel.edu/~chrisyin/ART307/finalProject/ConceptForProject.html" onmouseover="showHideDiv(1)" onmouseout="showHideDiv(1)">
+        		<div class="section_overlay">
+					<img src="images/ProjectHomepageTopRight.jpg" id="Concept"
+					title="http://soshable.com/wp-content/uploads/2012/05/Student-and-Professor.jpg" width="350" height="500" border="0">
+					<div id="section1_title" class="section_title">Concept</div></img>
+				</div>
+			</a>
+        </div>
+        
+        
+        
+        <div id="section2" class="section">
+        	<a href="http://udel.edu/~chrisyin/ART307/finalProject/SpecificationsForProject.html" onmouseover="showHideDiv(2)" onmouseout="showHideDiv(2)">
+        		<div class="section_overlay">
+					<img src="images/ProjectHomepageBottomLeft.jpg" id="Specification"
+					title="http://www.northeastern.edu/news/wp-content/uploads/2015/07/Biologyclass.jpg" width="350" height="500" border="0">
+					<div id="section2_title" class="section_title">Specification</div></img>
+				</div>
+			</a>
+        </div>
+        
+    	
+        
+        <div id="section3" class="section">
+        	<a href="http://udel.edu/~chrisyin/ART307/finalProject/PrototypeForProject.html" onmouseover="showHideDiv(3)" onmouseout="showHideDiv(3)">
+        		<div class="section_overlay">
+					<img src="images/ProjectHomepageBottomRight.jpg" id="Prototype"
+					title="http://images.wisegeek.com/college-classroom.jpg" width="800" height="250" border="0">
+					<div id="section3_title" class="section_title">Prototype</div></img>
+				</div>
+			</a>
+        </div>
+        
+	</body>
+</html>
